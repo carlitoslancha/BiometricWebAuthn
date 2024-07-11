@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PruebasServerAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/dark_lavender</item>
+        <item name="colorPrimaryVariant">@color/dark_lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_teal_200</item>
+        <item name="colorSecondaryVariant">@color/dark_teal_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/dark_lavender</item>
+    </style>
+
+    <style name="Theme.PruebasServerAndroid" parent="Base.Theme.PruebasServerAndroid" />
+</resources>

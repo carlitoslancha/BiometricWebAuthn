@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="purple">#FF800080</color>
+    <color name="pink">#FFFFC0CB</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="gray">#FF808080</color>
+    <color name="dark_gray">#FFA9A9A9</color>
+    <color name="light_gray">#FFD3D3D3</color>
+    <color name="lavender">#FF8692F7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="dark_lavender">#FF5E6472</color> <!-- Lavanda oscuro -->
+    <color name="dark_teal_200">#FF00BFA5</color> <!-- Teal 200 oscuro -->
+    <color name="dark_teal_700">#FF00796B</color> <!-- Teal 700 oscuro -->
+    <color name="reject">#FFFE938C</color> <!-- Teal 700 oscuro -->
+    <color name="accept">#FFB2FFD6</color> <!-- Teal 700 oscuro -->
+    <color name="send">#FFDEB986</color> <!-- Teal 700 oscuro -->
+
+</resources>

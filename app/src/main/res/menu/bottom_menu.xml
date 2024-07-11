@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/registro"
+        android:title="Registro"
+        android:icon="@drawable/register_section"/>
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:id="@+id/autenticacion"
+        android:title="Autenticacion"
+        android:icon="@drawable/auth_section"/>
+
+
+</menu>
