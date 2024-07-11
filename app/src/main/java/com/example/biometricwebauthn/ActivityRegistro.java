@@ -426,6 +426,7 @@ public class ActivityRegistro extends AppCompatActivity {
             LinearLayout botonesLinearAutenticacion = findViewById(R.id.botonesLinearAuteticacion);
             LinearLayout linearPasswordAutenticacion = findViewById(R.id.linearPasswordAutenticacion);
             Button enviarBotonAutenticacion = findViewById(R.id.enviarBotonAutenticacion);
+            Button generarBotonAutenticacion = findViewById(R.id.generarBotonAutenticacion);
 
             // Restablecer la visibilidad y el contenido de los elementos
             loadingLayout.setVisibility(View.VISIBLE);
@@ -433,6 +434,7 @@ public class ActivityRegistro extends AppCompatActivity {
             botonesLinearAutenticacion.setVisibility(View.VISIBLE);
             linearPasswordAutenticacion.setVisibility(View.GONE);
             enviarBotonAutenticacion.setVisibility(View.GONE);
+            generarBotonAutenticacion.setVisibility(View.VISIBLE);
 
             tituloTV.setText("Solicitud de autenticación recibida: ");
             nameTextView.setText("");
