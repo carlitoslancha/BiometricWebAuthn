@@ -166,9 +166,9 @@ public class ECDSAKey {
         for(int i=0; i<longitud; i++) {
             aux[i]=claveInt[i];
         }
-        GF2Vector vec=arrayToGF2Vector(aux);
+        GF2Vector xU=arrayToGF2Vector(aux);
         Log.d("ERROR EN LA ENCODE", eUe.toString());
-        return (GF2Vector) goppa.getGEncode().leftMultiply(vec).add(eUe);
+        return (GF2Vector) goppa.getGEncode().leftMultiply(xU).add(eUe);
     }
 
 
